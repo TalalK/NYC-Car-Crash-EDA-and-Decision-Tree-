@@ -77,7 +77,7 @@ rf_car_FINAL <- randomForest(PERSONS.KILLED~., data = car_final, ntree= 100, mtr
 train.tree <- rpart(PERSONS.KILLED~., data = car_final,method = "class")
 
 
-fancyRpartPlot(model = train.tree, main = "Tree for Legendary")
+fancyRpartPlot(model = train.tree, main = "Tree_v1")
 
 
 #car_factor <- as.factor(no_na_car)
