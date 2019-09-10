@@ -125,3 +125,6 @@ summary(glm.fits1)
 linear_clean <- lm(Total~., data=poke_train)
 summary(linear_clean)
 plot(linear_clean)
+
+
+### Waiting for feedback  
